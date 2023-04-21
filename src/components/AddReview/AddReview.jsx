@@ -16,7 +16,6 @@ function AddReview(props) {
   const path = location.pathname;
   // const eateryName = getSubstring(path, '/', 'reviews')
   const [showAddReview, setShowReviewForm] = useState(false);
-  // const BASE_URL = "http://localhost:3001";
   const [errors, setErrors] = useState({});
 
   const [reviewFormData, setReviewData] = useState({
